@@ -64,6 +64,7 @@ class Owner
       animal.each do|animal|
       animal.mood = "nervous"
     end
+    end
   end
 
   def list_pets
