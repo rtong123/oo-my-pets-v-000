@@ -62,6 +62,8 @@ class Owner
     @pets.each do |animal|
       animal.each do |pet|
         pet.clear
+      end
+    end
   end
 
   def list_pets
